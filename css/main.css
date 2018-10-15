@@ -50,8 +50,17 @@ html {
   text-decoration: none;
 }
 
+.about-middle {
+    top: 70%;
+    left: 39%;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .about-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/about.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/about.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
