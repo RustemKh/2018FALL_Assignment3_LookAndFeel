@@ -29,7 +29,7 @@ html {
 }
 
     .middle big fo {
-        text-align: center;
+        
         top: 70%;
         left: 39%;
         text-align: center;
@@ -93,4 +93,33 @@ html {
     }
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    resize: vertical;
+    height: 6%;
+    text-align: left !important;
+}
+
+
+input[type=submit] {
+    background-color: dimgrey;
+    color: white;
+    padding: 12px 20px;
+    border: double;
+    border-radius: 6px;
+    cursor: pointer;
+}
+    
+
+.container contact {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
 
