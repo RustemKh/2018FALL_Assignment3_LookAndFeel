@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Photography Samples
+    </title>
+    <!--Styling the Grid -->
+    <style>
+        *, *:after, *:before {
+            box-sizing: inherit;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+            position: relative;
+        }
+
+        :root {
+            --sinSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            --Nhexa: 4;
+            --gap: 2vw;
+            --size: calc(calc(100vw / var(--Nhexa)) - var(--gap));
+        }
+
+        @media only screen and (min-width: 1100px) {
+            :root {
+                --Nhexa: 6;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            :root {
+                --Nhexa: 2;
+            }
+
+            body {
+                margin-right: calc(var(--size) * .3);
+            }
+        }
+
+        html {
+            background: #e9e9e7;
+            box-sizing: border-box;
+            font-family: var(--sinSerif);
+            font-size: 1rem;
+        }
+
+        body {
+            padding-right: calc(var(--size) * .5);
+            overflow-X: hidden;
+            hyphens: auto;
+        }
+
+        section {
+            margin: calc(var(--size) * .5) auto 0;
+            width: calc(var(--size) * calc(var(--Nhexa) - 1));
+            display: grid;
+            grid-template-columns: repeat(var(--Nhexa), 1fr);
+            grid-gap: var(--gap);
+        }
+
+        article {
+            background: cadetblue;
+            width: var(--size);
+            height: calc(var(--size) / 1.1111111);
+            clip-path: url(#hexagono);
+            clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+            margin-right: calc(var(--size) / 2);
+            color: #fff;
+            overflow: hidden;
+        }
+
+            article:nth-child(2n) {
+                margin: calc(var(--size) * -.5) calc(var(--size) * -.25) 0 calc(var(--size) * -.75);
+            }
+
+            article::before {
+                content: '';
+                float: left;
+                width: 25%;
+                height: 100%;
+                clip-path: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+                shape-outside: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+            }
+
+        img {
+            width: var(--size);
+            height: var(--size);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform-origin: 0% 50%;
+            transition: .75s;
+            clip-path: url(#hexagono);
+            clip-path: inherit;
+            z-index: 10;
+        }
+
+        article:hover img {
+            transform: translate(-50%, -50%) rotate(-110deg);
+        }
+
+        h2 {
+            font-size: 100%;
+        }
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            max-width: 50%;
+            height: 100%;
+            font-size: calc(9 / var(--Nhexa) * 1vw);
+            line-height: 1;
+            color: #fff;
+            transition: .75s .05s;
+            text-align: center;
+        }
+
+            figure p {
+                font-size: 70%;
+                line-height: 1.2;
+                width: 100%;
+            }
+
+        h1 {
+            width: 100vw;
+            background: #FF0066;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            margin-bottom: calc(var(--size) * .55 + var(--gap));
+            padding: 2vh 0;
+            text-align: center;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        body > p {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem calc(var(--size) * .5);
+            font-weight: 200;
+        }
+
+        {
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <section>
+        <article>
+            <figure>
+                <h2>#Building Top</h2>
+                <p>Apurv Shinde</p>
+            </figure>
+            <img src='./img/Aerial1.png' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Sunshine Bride</h2>
+                <p>Sidra Zaheer</p>
+            </figure>
+            <img src='./img/Wedding1.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Hudson Bay</h2>
+                <p>Apurv Shinde</p>
+            </figure>
+            <img src='./img/Aerial2.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#RoseGold</h2>
+                <p>Sidra Zaheer</p>
+            </figure>
+            <img src='./img/Wedding2.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Mumbai SeaLink</h2>
+                        <p>Apurv Shinde</p>
+            </figure>
+            <img src='./img/Aerial3.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Lavender Walk</h2>
+                <p>Sidra Zaheer</p>
+            </figure>
+            <img src='./img/Wedding3.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Big Apple</h2>
+                <p>Apurv Shinde</p>
+            </figure>
+            <img  src='./img/Aerial4.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Wedding by the Lake</h2>
+                <p>Sidra Zaheer</p>
+            </figure>
+            <img src='./img/Wedding4.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Hear me Roar</h2>
+                <p>Rustem Khalilov</p>
+            </figure>
+            <img src='./img/Lion.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Silent Woods</h2>
+                <p>Rustem Khalilov</p>
+            </figure>
+            <img src='./img/Bear.jpg' />
+        </article>
+
+        <article>
+            <figure>
+                <h2>#Majestic Colors</h2>
+                <p>Rustem Khalilov</p>
+            </figure>
+            <img src='./img/Bird.jpg' />
+        </article>
+        <article>
+            <figure>
+                <h2>#Whispering Woods</h2>
+                <p>Rustem Khalilov </p>
+            </figure>
+            <img src='./img/Tiger.jpg' />
+        </article>
+    </section>
+
+
+
+
+    <svg width="0" height="0">
+        <defs>
+            <clipPath id="hexagono" clipPathUnits="objectBoundingBox">
+                <polygon points=".25 0, .75 0, 1 .5, .75 1, .25 1, 0 .5" />
+            </clipPath>
+        </defs>
+    </svg>
+
+
+
+</body>
+</html>
