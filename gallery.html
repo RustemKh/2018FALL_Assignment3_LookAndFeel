@@ -131,11 +131,12 @@
 
         h1 {
             width: 100vw;
-            background: #FF0066;
+            background: #f3e141;
             position: sticky;
             top: 0;
             z-index: 1;
             margin-bottom: calc(var(--size) * .55 + var(--gap));
+            margin-top: 12%;
             padding: 2vh 0;
             text-align: center;
             font-weight: 400;
@@ -157,119 +158,219 @@
             background-size: cover;
         }
 
+        
     </style>
 
 </head>
 <body>
 
-
-    <section>
-        <article>
-            <figure>
-                <h2>#Building Top</h2>
-                <p>Apurv Shinde</p>
-            </figure>
-            <img src='./img/Aerial1.png' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Sunshine Bride</h2>
-                <p>Sidra Zaheer</p>
-            </figure>
-            <img src='./img/Wedding1.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Hudson Bay</h2>
-                <p>Apurv Shinde</p>
-            </figure>
-            <img src='./img/Aerial2.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#RoseGold</h2>
-                <p>Sidra Zaheer</p>
-            </figure>
-            <img src='./img/Wedding2.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Mumbai SeaLink</h2>
-                        <p>Apurv Shinde</p>
-            </figure>
-            <img src='./img/Aerial3.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Lavender Walk</h2>
-                <p>Sidra Zaheer</p>
-            </figure>
-            <img src='./img/Wedding3.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Big Apple</h2>
-                <p>Apurv Shinde</p>
-            </figure>
-            <img  src='./img/Aerial4.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Wedding by the Lake</h2>
-                <p>Sidra Zaheer</p>
-            </figure>
-            <img src='./img/Wedding4.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Hear me Roar</h2>
-                <p>Rustem Khalilov</p>
-            </figure>
-            <img src='./img/Lion.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Silent Woods</h2>
-                <p>Rustem Khalilov</p>
-            </figure>
-            <img src='./img/Bear.jpg' />
-        </article>
-
-        <article>
-            <figure>
-                <h2>#Majestic Colors</h2>
-                <p>Rustem Khalilov</p>
-            </figure>
-            <img src='./img/Bird.jpg' />
-        </article>
-        <article>
-            <figure>
-                <h2>#Whispering Woods</h2>
-                <p>Rustem Khalilov </p>
-            </figure>
-            <img src='./img/Tiger.jpg' />
-        </article>
-    </section>
+    <h1>Image Gallery</h1>
+      <section>
+            <article>
+                <figure>
+                    <h2>#Building Top</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Aerial1.png">
+                                <img src='./img/Aerial1.png' />
+                            </a>
+                            <div class="desc">Aerial Photography</div>
+                        </div>
+                    </div>
 
 
+                    <p>Apurv Shinde</p>
+
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Sunshine Bride</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Wedding1.jpg">
+                                <img src='./img/Wedding1.jpg' />
+                            </a>
+                            <div class="desc">Wedding Photography</div>
+                        </div>
+                    </div>
+                    <p>Sidra Zaheer</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Hudson Bay</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Aerial2.jpg">
+                                <img alt src='./img/Aerial2.jpg' />
+                            </a>
+                            <div class="desc">Aerial Photography</div>
+                        </div>
+                    </div>
+                    <p>Apurv Shinde</p>
 
 
-    <svg width="0" height="0">
-        <defs>
-            <clipPath id="hexagono" clipPathUnits="objectBoundingBox">
-                <polygon points=".25 0, .75 0, 1 .5, .75 1, .25 1, 0 .5" />
-            </clipPath>
-        </defs>
-    </svg>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#RoseGold</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Wedding2.jpg">
+                                <img alt src='./img/Wedding2.jpg' />
+                            </a>
+                            <div class="desc">Wedding Photography</div>
+                        </div>
+                    </div>
+                    <p>Sidra Zaheer</p>
+
+
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>
+                        #Mumbai SeaLink<h2>
+                            <div class="responsive">
+                                <div class="gallery">
+                                    <a target="_blank" href="./img/Aerial3.jpg">
+                                        <img alt src='./img/Aerial3.jpg' />
+                                    </a>
+                                    <div class="desc">Aerial Photography</div>
+                                </div>
+                            </div>
+
+                            <p>Apurv Shinde</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Lavender Walk</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Wedding3.jpg">
+                                <img alt src='./img/Wedding3.jpg' />
+                            </a>
+                            <div class="desc">Wedding Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Sidra Zaheer</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Big Apple</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Aerial4.jpg">
+                                <img alt src='./img/Aerial4.jpg' />
+                            </a>
+                            <div class="desc">Aerial Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Apurv Shinde</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Wedding by the Lake</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Wedding4.jpg">
+                                <img alt src='./img/Wedding4.jpg' />
+                            </a>
+                            <div class="desc">Wedding Photography</div>
+                        </div>
+                    </div>
+                    <p>Sidra Zaheer</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Hear me Roar</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Lion.jpg">
+                                <img alt src='./img/Lion.jpg' />
+                            </a>
+                            <div class="desc">WildLife Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Rustem Khalilov</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Silent Woods</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Bear.jpg">
+                                <img alt src='./img/Bear.jpg' />
+                            </a>
+                            <div class="desc">WildLife Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Rustem Khalilov</p>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <h2>#Majestic Colors</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Bird.jpg">
+                                <img alt src='./img/Bird.jpg' />
+                            </a>
+                            <div class="desc">WildLife Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Rustem Khalilov</p>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <h2>#Whispering Woods</h2>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a target="_blank" href="./img/Tiger.jpg">
+                                <img alt src='./img/Tiger.jpg' />
+                            </a>
+                            <div class="desc">WildLife Photography</div>
+                        </div>
+                    </div>
+
+                    <p>Rustem Khalilov </p>
+                </figure>
+            </article>
+        </section>
+
+
+
+
+        <svg width="0" height="0">
+            <defs>
+                <clipPath id="hexagono" clipPathUnits="objectBoundingBox">
+                    <polygon points=".25 0, .75 0, 1 .5, .75 1, .25 1, 0 .5" />
+                </clipPath>
+            </defs>
+        </svg>
 
 
 
