@@ -60,7 +60,7 @@ html {
 }
 
 .mainpage-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/MainPage.gif);
+    background-image: url(../img/MainPage.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
