@@ -94,16 +94,16 @@ html {
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 1px;
     box-sizing: border-box;
-    margin-top: 18px;
-    margin-bottom: 8px;
+    margin-top: 60px;
+    margin-bottom: 10px;
     resize: vertical;
-    height: 6%;
     text-align: left !important;
+  
 }
 
 
@@ -114,6 +114,8 @@ input[type=submit] {
     border: double;
     border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
     
 
