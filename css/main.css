@@ -5,23 +5,11 @@ Sample css code
 body,
 html {
   height: 100%;
+  color: white;
 }
 
-h1 {
-    color: white;
-}
 
-h2 {
-    color: white; 
-}
 
-h3 {
-    color: white; 
-}
-
-p {
-    color: white;
-}
 
 /*Set background image*/
 .container {
