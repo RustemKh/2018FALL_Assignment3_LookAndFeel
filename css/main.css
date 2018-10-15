@@ -28,13 +28,6 @@ html {
   margin-top: 12%;
 }
 
-    .middle big fo {
-        
-        top: 70%;
-        left: 39%;
-        text-align: center;
-        margin-top: 10%;
-    }
 
 /*Set circle in unordered list*/
 .middle ul {
@@ -66,6 +59,20 @@ html {
     
 }
 
+.mainpage-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/MainPage.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.lastpage-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/LastPage.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /*copy pasting responsiveness code from slides*/
 @media only screen and (max-width: 600px) { /* For mobile phones*/
     .leftMenu, .rightMenu, .mainBody {
@@ -93,35 +100,5 @@ html {
     }
 }
 
-input[type=text], select, textarea {
-    width: 50%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 1px;
-    box-sizing: border-box;
-    margin-top: 66px;
-    margin-bottom: 10px;
-    resize: vertical;
-    text-align: left !important;
-  
-}
 
-
-input[type=submit] {
-    background-color: dimgrey;
-    color: white;
-    padding: 12px 20px;
-    border: double;
-    border-radius: 6px;
-    cursor: pointer;
-    letter-spacing: 2px;
-    
-}
-    
-
-.container contact {
-    border-radius: 5px;
-    background-color: black;
-    padding: 20px;
-}
 
