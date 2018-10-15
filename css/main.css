@@ -67,7 +67,7 @@ html {
 }
 
 .lastpage-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/LastPage.gif);
+    background-image: url(../img/LastPage.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
