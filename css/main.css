@@ -27,6 +27,16 @@ html {
   margin-top: 10%;
 }
 
+    .middle big fo {
+        max-width: 500px;
+        height: 100px;
+        top: 70%;
+        left: 39%;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 100px;
+    }
+
 /*Set circle in unordered list*/
 .middle ul {
   list-style-type: circle;
