@@ -5,7 +5,11 @@ Sample css code
 body,
 html {
   height: 100%;
+  color: white;
 }
+
+
+
 
 /*Set background image*/
 .container {
@@ -17,12 +21,10 @@ html {
 
 /* Position text in the middle */
 .middle {
-  position: absolute;
-  color: beige;
   top: 70%;
   left: 39%;
   text-align: center;
-  font-size: 25px;
+  margin-top: 10%;
 }
 
 /*Set circle in unordered list*/
@@ -44,4 +46,12 @@ html {
 .middle ul li a:hover {
   color: red;
   text-decoration: none;
+}
+
+.about-container {
+    background-image: url(../img/about.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9) !important;
 }
