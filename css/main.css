@@ -99,7 +99,7 @@ input[type=text], select, textarea {
     border: 2px solid #ccc;
     border-radius: 1px;
     box-sizing: border-box;
-    margin-top: 60px;
+    margin-top: 66px;
     margin-bottom: 10px;
     resize: vertical;
     text-align: left !important;
@@ -114,8 +114,8 @@ input[type=submit] {
     border: double;
     border-radius: 6px;
     cursor: pointer;
-    margin-bottom: 30px;
     letter-spacing: 2px;
+    
 }
     
 
